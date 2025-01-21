@@ -1,0 +1,119 @@
+1. User Registration (CREATE Operation)
+What Users Can Do:
+
+Sign Up: Users can create an account by providing necessary details such as their name, email address, password, and contact information.
+Create Account: After filling out the registration form, users can submit their details to create an account. Once registered, they are typically redirected to the login page.
+Key Features:
+
+Data Entry: Users provide personal information which is securely stored.
+Account Creation: This allows new users to enter the system, creating their profiles and accessing the services on the platform.
+Expected Outcomes:
+
+Users receive a success message (e.g., “Registration Successful!”) and are redirected to the login page to access their account.
+2. User Login and Log-out
+What Users Can Do:
+
+Login: After registration, users can log in to their accounts by entering their registered email and password.
+Secure Session: Once logged in, users are directed to their dashboard or account information page.
+Log Out: Users can log out at any time, which securely ends their session and redirects them to the login page.
+Key Features:
+
+Authentication: Login verifies users' credentials before granting access.
+Secure Session Management: Allows users to securely end their session by logging out.
+Expected Outcomes:
+
+After login, users are greeted with a personalized message (e.g., "Welcome, John Doe!").
+After logout, users are redirected to the login page, confirming their session has ended.
+3. User Profile Management (READ and UPDATE Operations)
+What Users Can Do:
+
+View Profile: Users can view their personal information such as name, email, contact information, payment methods, and crypto wallets.
+Edit Profile: Users can edit and update their personal details. For example, updating their contact number or changing the email address.
+Key Features:
+
+READ Operation: Allows users to read/view their stored information.
+UPDATE Operation: Enables users to update their profile details (e.g., change contact info or other personal data).
+Expected Outcomes:
+
+Upon updating, users are shown a confirmation message like "Information Updated Successfully!"
+The page reflects the updated information immediately.
+4. Add Payment Methods and Crypto Wallets (CREATE Operation)
+What Users Can Do:
+
+Add Payment Methods: Users can add new payment methods (e.g., bank accounts, PayPal, GCash, etc.) to facilitate cryptocurrency purchases and trades.
+Add Crypto Wallets: Users can add their crypto wallets (e.g., MetaMask, Trust Wallet, etc.) for cryptocurrency transactions.
+Key Features:
+
+CREATE Operation: Adds new records of payment methods and crypto wallets, which are then securely saved to the system for future use.
+Expected Outcomes:
+
+New payment methods and crypto wallets are displayed in the user’s account information, available for future transactions.
+5. View Crypto Catalog and Perform Trade Transactions
+What Users Can Do:
+
+View Crypto Catalog: Users can explore a catalog of available cryptocurrencies, see their current prices, and view market trends and supply data.
+Buy or Sell Cryptocurrencies: Users can initiate trades, selecting a cryptocurrency, trade type (buy or sell), payment method, wallet, and amount.
+Key Features:
+
+Trade Operations: Facilitates both buying and selling of cryptocurrencies, with the system handling wallet and payment method integration.
+Real-Time Updates: Displays current cryptocurrency market data, prices, and trends.
+Expected Outcomes:
+
+Once the trade is completed, users see a confirmation message (e.g., "Trade Successful!").
+Balances in both the crypto wallet and payment methods are updated dynamically based on the transaction.
+6. Transaction History (READ Operation)
+What Users Can Do:
+
+View Transaction History: Users can review a list of all past crypto transactions they have made, including transaction ID, amount, and the payment method used.
+Filter and Search Transactions: Users can filter transactions by date range, crypto type, and other criteria to locate specific trades quickly.
+Key Features:
+
+READ Operation: Fetches and displays detailed transaction data.
+Expected Outcomes:
+
+Users can view a list of all completed transactions, filtered according to their preferences.
+Clicking on a transaction will display detailed information like transaction ID, amount, and associated wallet/payment method.
+7. Submit and View Feedback (CREATE and READ Operations)
+What Users Can Do:
+
+Submit Feedback: After completing a transaction, users can provide feedback by rating their experience and leaving comments (e.g., “Great service!” or “Transaction was smooth!”).
+View Feedback: Users can view feedback they’ve submitted for their transactions, and see any responses or ratings from others (if applicable).
+Key Features:
+
+CREATE Operation: Allows users to submit feedback, storing their rating and comments.
+READ Operation: Displays feedback associated with each transaction.
+Expected Outcomes:
+
+Users will see a success message after submitting feedback (e.g., "Feedback Submitted Successfully!").
+Feedback will be visible in the user’s transaction history, giving them a record of their interactions.
+8. Delete Payment Methods or Wallets (DELETE Operation)
+What Users Can Do:
+
+Remove Payment Methods and Wallets: Users have the ability to delete payment methods or crypto wallets from their account that they no longer wish to use.
+Key Features:
+
+DELETE Operation: Users can remove payment methods and wallets, which are no longer needed, ensuring the account only holds necessary information.
+Expected Outcomes:
+
+The removed payment method or wallet will no longer appear in the user's account.
+A confirmation message (e.g., "Item removed successfully") will notify users that the action was completed.
+Summary of User Actions:
+Account Management:
+
+Register, log in, and log out securely.
+Update personal details and view account information.
+Payment Methods and Crypto Wallets:
+
+Add or remove payment methods and crypto wallets for transactions.
+Trading and Transactions:
+
+View available cryptocurrencies.
+Buy and sell cryptocurrencies, updating wallets and payment methods accordingly.
+Review transaction history, filter and search past trades.
+Feedback System:
+
+Submit feedback on completed transactions.
+View and manage feedback submitted for each trade.
+Data Security and Privacy:
+
+Users can manage and delete their payment methods and wallets as needed, ensuring they have control over their account information.
